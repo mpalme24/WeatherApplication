@@ -28,5 +28,9 @@ public class Common {
         return String.format("http://openweathermap.org/img/w/%s.png", icon);
     }
 
+    public static void main(){
+        int i = 1;
+    }
+
 
 }
