@@ -27,10 +27,4 @@ public class Common {
     public static String getImage(String icon){
         return String.format("http://openweathermap.org/img/w/%s.png", icon);
     }
-
-    public static void main(){
-        int i = 1;
-    }
-
-
 }
