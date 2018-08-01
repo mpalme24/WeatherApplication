@@ -28,7 +28,9 @@ public class Common {
         return String.format("http://openweathermap.org/img/w/%s.png", icon);
     }
 
-    public static void main(){
-        int i = 1;
+    public static String getDateNow(){
+        DateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy HH:mm");
+        Date date = new Date();
+        return dateFormat.format(date);
     }
 }
